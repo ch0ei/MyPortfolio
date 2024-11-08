@@ -1,0 +1,95 @@
+﻿body {
+    background-color: #eeeeee
+}
+
+.small-circle{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #15bae8;
+    margin-right: 0;
+}
+
+.nav{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    height: 40px;
+    width: 200px;
+}
+
+.name{
+    margin-top: 3px;
+    font-family: fantasy;
+    font-size: 30px;
+}
+
+.main-portfolio{
+    margin-left: 20%;
+    height: 400px;
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    height: 400px
+    
+}
+
+.mainimg{
+    float: left;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.main-content h1 {
+    margin-bottom: -10px;
+    font-family: Cascadia Mono;
+    font-size: 50px;
+}
+
+.main-content h2 {
+    margin-bottom: -10px;
+    font-family: Cascadia Mono;
+}
+
+.main-content p {
+    font-family: Cascadia Mono;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #d4d4d4;
+    font-family: Cascadia Mono;
+    font-size: 20px;
+}
+.container img{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.skills{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+hr {
+    margin-bottom: 200px;
+}
